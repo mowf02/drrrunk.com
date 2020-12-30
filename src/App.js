@@ -105,7 +105,11 @@ class App extends Component {
     if (result.length === 1) {
       this.setState({ result: result[0] });
     } else {
+<<<<<<< HEAD
       this.setState({ result: "Undetermined" });
+=======
+      this.setState({ result: 'Antoher Nicholas Cage Scatter Cushion' });
+>>>>>>> dd21dbe48930e3bbec5beae4ed7f0027f66b2bb5
     }
   }
 
